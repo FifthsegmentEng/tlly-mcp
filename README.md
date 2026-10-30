@@ -122,4 +122,4 @@ Current founding pricing and availability: see **[tlly.dev](https://tlly.dev)**.
 
 ## Registry metadata
 
-[`server.json`](./server.json) describes this server for the [Official MCP Registry](https://modelcontextprotocol.io/) (`io.github.fifthsegmenteng/tlly`). This repo is for discovery and documentation; registry submission is separate.
+[`server.json`](./server.json) describes this server for the [Official MCP Registry](https://modelcontextprotocol.io/) as **`dev.tlly/tlly`** (DNS-verified namespace). Published entry: [registry search for `dev.tlly/tlly`](https://registry.modelcontextprotocol.io/v0/servers?search=dev.tlly/tlly). This repo holds listing metadata and setup docs for that server.
