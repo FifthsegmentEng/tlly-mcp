@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.fifthsegmenteng/tlly",
+  "description": "Hosted dashboards and scheduled data jobs for AI agents, with thresholds, alerts and share links.",
+  "version": "1.0.0",
+  "title": "tlly",
+  "websiteUrl": "https://tlly.dev",
+  "repository": {
+    "url": "https://github.com/FifthsegmentEng/tlly-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tlly.dev/mcp"
+    }
+  ]
+}
