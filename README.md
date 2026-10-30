@@ -49,6 +49,18 @@ claude mcp add --transport http tlly https://tlly.dev/mcp
 
 Step-by-step notes for each client: **[docs/setup.md](./docs/setup.md)**.
 
+## Cursor plugin
+
+This repository is a [Cursor Plugin](https://cursor.com/docs/plugins): install from the marketplace (after review) or test locally by copying the repo into `~/.cursor/plugins/local/tlly`.
+
+| File | Role |
+| --- | --- |
+| [`.cursor-plugin/plugin.json`](./.cursor-plugin/plugin.json) | Plugin manifest (`name`: `tlly`) |
+| [`mcp.json`](./mcp.json) | Remote MCP server (`https://tlly.dev/mcp`) |
+| [`skills/tlly/SKILL.md`](./skills/tlly/SKILL.md) | Agent skill for dashboards, jobs, and alerts |
+
+Submit for marketplace review: [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish) (public Git repository URL for this repo).
+
 ## Tools (30)
 
 One-line summaries below; full parameter schemas and job/dashboard specs are in the live [MCP server card](https://tlly.dev/.well-known/mcp/server-card.json).

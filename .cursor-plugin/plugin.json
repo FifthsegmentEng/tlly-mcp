@@ -1,0 +1,26 @@
+{
+  "name": "tlly",
+  "displayName": "tlly",
+  "description": "Hosted dashboards and scheduled data jobs for AI agents, with thresholds, alerts and share links.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Fifthsegment"
+  },
+  "homepage": "https://tlly.dev",
+  "repository": "https://github.com/FifthsegmentEng/tlly-mcp",
+  "license": "MIT",
+  "logo": "logo.png",
+  "keywords": [
+    "tlly",
+    "mcp",
+    "dashboards",
+    "metrics",
+    "monitoring",
+    "alerts",
+    "scheduled-jobs",
+    "kpi",
+    "stripe",
+    "shopify",
+    "google-sheets"
+  ]
+}
